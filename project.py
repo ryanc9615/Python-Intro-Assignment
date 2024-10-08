@@ -1,5 +1,5 @@
-first_num = input("Enter first number: ")
-second_num = input("Enter second number: ")
+first_num = int(input("Enter first number: "))
+second_num = int(input("Enter second number: "))
 
 # First calculations
 
@@ -11,3 +11,7 @@ if second_num == 0:
 else:
     print(first_num/second_num)
 
+if first_num > second_num:
+    print(f"{first_num} is greater than {second_num}")
+else: 
+    print(f"{second_num} is greater than {first_num}")
